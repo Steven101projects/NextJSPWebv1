@@ -14,7 +14,6 @@ export default function Home() {
    <div>
     <MainHeader />
     <BannerHome/>
-    Hello World!
     <AboutInfo/>
     <ServicesInfo/>
     <ContactInfo />
