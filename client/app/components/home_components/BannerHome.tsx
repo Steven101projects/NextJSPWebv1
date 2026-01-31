@@ -2,7 +2,7 @@ import { BackgroundPaths } from "@/app/components/ui/background-paths"
 
 export default function BannerHome() {
   return (
-    <div className="relative flex flex-col justify-center items-center w-full h-[90vh] overflow-hidden">
+    <div id="home" className="relative flex flex-col justify-center items-center w-full h-[90vh] overflow-hidden">
 
       {/* Background */}
       <BackgroundPaths title="TITLE HERE" />

@@ -13,7 +13,7 @@ function ContactCard({
   value: string
 }) {
   return (
-    <div className="flex flex-col items-center justify-center rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm transition hover:shadow-md">
+    <div id="contacts" className=" flex flex-col items-center justify-center rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm transition hover:shadow-md">
       <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-gray-100">
         {icon}
       </div>

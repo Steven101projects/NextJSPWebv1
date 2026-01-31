@@ -3,7 +3,7 @@ import { AnimatedGridPattern } from "@/app/components/ui/animated-grid-pattern"
 
 export default function AboutInfo() {
   return (
-    <div className="relative flex flex-col justify-center items-center w-full h-[90vh] overflow-hidden bg-white">
+    <div id="about" className="relative flex flex-col justify-center items-center w-full h-[90vh] overflow-hidden bg-white">
 
       {/* Background pattern */}
       <AnimatedGridPattern
